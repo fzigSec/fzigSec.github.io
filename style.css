@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.header h1 {
+    margin: 0;
+    color: #007BFF;
+}
+.header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+    color: #555;
+}
+.section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.section:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background: #e9e9e9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p .chamber-name {
+	color: #1f5189;
+}
+
+p .appointment {
+	color: #db0c0c;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        border-radius: 0;
+    }
+
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    ul li {
+        padding: 8px;
+    }
+}
